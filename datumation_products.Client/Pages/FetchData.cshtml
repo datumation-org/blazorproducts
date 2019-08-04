@@ -1,6 +1,4 @@
-﻿@using datumation_products.Shared
-@using datumation_products.Server
-
+﻿@using datumation_products.Shared.Models
 @page "/fetchdata"
 @inject HttpClient Http
 
@@ -8,7 +6,7 @@
 
 <p>This component demonstrates fetching data from the server.</p>
 
-@if (forecasts == null)
+@if (items == null)
 {
     <p><em>Loading...</em></p>
 }
@@ -24,13 +22,13 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in forecasts)
+            @foreach (var item in items)
             {
                 <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Price</td>
+                    <td>@item.Description</td>
                 </tr>
             }
         </tbody>
@@ -38,10 +36,10 @@ else
 }
 
 @functions {
-    Items[] forecasts;
+    Items[] items;
 
     protected override async Task OnInitAsync()
     {
-        forecasts = await Http.GetJsonAsync<Items[]>("api/Shopping/ItemList");
+        items = await Http.GetJsonAsync<Items[]>("api/Shopping/ItemList");
     }
 }

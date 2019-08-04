@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using datumation_products.Server.Models;
 using datumation_products.Server.Services;
 using datumation_products.Shared;
+using datumation_products.Shared.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace datumation_products.Server.Controllers {

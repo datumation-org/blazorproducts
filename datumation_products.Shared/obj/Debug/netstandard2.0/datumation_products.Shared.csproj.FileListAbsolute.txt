@@ -1,9 +1,9 @@
 /home/jwiles/datumation_products/datumation_products.Shared/bin/Debug/netstandard2.0/datumation_products.Shared.deps.json
 /home/jwiles/datumation_products/datumation_products.Shared/bin/Debug/netstandard2.0/datumation_products.Shared.dll
 /home/jwiles/datumation_products/datumation_products.Shared/bin/Debug/netstandard2.0/datumation_products.Shared.pdb
-/home/jwiles/datumation_products/datumation_products.Shared/obj/Debug/netstandard2.0/datumation_products.Shared.csprojAssemblyReference.cache
 /home/jwiles/datumation_products/datumation_products.Shared/obj/Debug/netstandard2.0/datumation_products.Shared.csproj.CoreCompileInputs.cache
 /home/jwiles/datumation_products/datumation_products.Shared/obj/Debug/netstandard2.0/datumation_products.Shared.AssemblyInfoInputs.cache
 /home/jwiles/datumation_products/datumation_products.Shared/obj/Debug/netstandard2.0/datumation_products.Shared.AssemblyInfo.cs
 /home/jwiles/datumation_products/datumation_products.Shared/obj/Debug/netstandard2.0/datumation_products.Shared.dll
 /home/jwiles/datumation_products/datumation_products.Shared/obj/Debug/netstandard2.0/datumation_products.Shared.pdb
+/home/jwiles/datumation_products/datumation_products.Shared/obj/Debug/netstandard2.0/datumation_products.Shared.csprojAssemblyReference.cache
