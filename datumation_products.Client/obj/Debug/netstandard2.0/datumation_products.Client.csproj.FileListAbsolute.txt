@@ -1,12 +1,5 @@
-/home/jwiles/datumation_products/datumation_products.Client/obj/Debug/netstandard2.0/datumation_products.Client.csprojAssemblyReference.cache
-/home/jwiles/datumation_products/datumation_products.Client/obj/Debug/netstandard2.0/datumation_products.Client.csproj.CoreCompileInputs.cache
-/home/jwiles/datumation_products/datumation_products.Client/obj/Debug/netstandard2.0/Blazor.inputs.txt
-/home/jwiles/datumation_products/datumation_products.Client/obj/Debug/netstandard2.0/App.g.i.cs
-/home/jwiles/datumation_products/datumation_products.Client/obj/Debug/netstandard2.0/Pages/Counter.g.i.cs
-/home/jwiles/datumation_products/datumation_products.Client/obj/Debug/netstandard2.0/Pages/FetchData.g.i.cs
-/home/jwiles/datumation_products/datumation_products.Client/obj/Debug/netstandard2.0/Pages/Index.g.i.cs
-/home/jwiles/datumation_products/datumation_products.Client/obj/Debug/netstandard2.0/Pages/_ViewImports.g.i.cs
-/home/jwiles/datumation_products/datumation_products.Client/obj/Debug/netstandard2.0/Shared/MainLayout.g.i.cs
-/home/jwiles/datumation_products/datumation_products.Client/obj/Debug/netstandard2.0/Shared/NavMenu.g.i.cs
-/home/jwiles/datumation_products/datumation_products.Client/obj/Debug/netstandard2.0/Shared/SurveyPrompt.g.i.cs
-/home/jwiles/datumation_products/datumation_products.Client/obj/Debug/netstandard2.0/_ViewImports.g.i.cs
+C:\Users\eljef\source\repos\blazorproducts\datumation_products.Client\obj\Debug\netstandard2.0\datumation_products.Client.csprojAssemblyReference.cache
+C:\Users\eljef\source\repos\blazorproducts\datumation_products.Client\obj\Debug\netstandard2.0\staticwebassets\datumation_products.Client.StaticWebAssets.Manifest.cache
+C:\Users\eljef\source\repos\blazorproducts\datumation_products.Client\obj\Debug\netstandard2.0\staticwebassets\datumation_products.Client.StaticWebAssets.xml
+C:\Users\eljef\source\repos\blazorproducts\datumation_products.Client\obj\Debug\netstandard2.0\datumation_products.Client.csproj.CoreCompileInputs.cache
+C:\Users\eljef\source\repos\blazorproducts\datumation_products.Client\obj\Debug\netstandard2.0\Blazor.inputs.txt

@@ -1,35 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/home/jwiles/datumation_products/datumation_products.Server/datumation_products.Server.csproj": {}
+    "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Server\\datumation_products.Server.csproj": {}
   },
   "projects": {
-    "/home/jwiles/datumation_products/datumation_products.Client/datumation_products.Client.csproj": {
+    "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Client\\datumation_products.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jwiles/datumation_products/datumation_products.Client/datumation_products.Client.csproj",
+        "projectUniqueName": "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Client\\datumation_products.Client.csproj",
         "projectName": "datumation_products.Client",
-        "projectPath": "/home/jwiles/datumation_products/datumation_products.Client/datumation_products.Client.csproj",
-        "packagesPath": "/home/jwiles/.nuget/packages/",
-        "outputPath": "/home/jwiles/datumation_products/datumation_products.Client/obj/",
+        "projectPath": "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Client\\datumation_products.Client.csproj",
+        "packagesPath": "C:\\Users\\eljef\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/jwiles/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\eljef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netstandard2.1": {
             "projectReferences": {
-              "/home/jwiles/datumation_products/datumation_products.Shared/datumation_products.Shared.csproj": {
-                "projectPath": "/home/jwiles/datumation_products/datumation_products.Shared/datumation_products.Shared.csproj"
+              "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Shared\\datumation_products.Shared.csproj": {
+                "projectPath": "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Shared\\datumation_products.Shared.csproj"
               }
             }
           }
@@ -41,7 +43,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netstandard2.1": {
           "dependencies": {
             "Microsoft.AspNetCore.Blazor.Browser": {
               "target": "Package",
@@ -51,51 +53,57 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[0.7.0, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          }
         }
       }
     },
-    "/home/jwiles/datumation_products/datumation_products.Server/datumation_products.Server.csproj": {
+    "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Server\\datumation_products.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jwiles/datumation_products/datumation_products.Server/datumation_products.Server.csproj",
+        "projectUniqueName": "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Server\\datumation_products.Server.csproj",
         "projectName": "datumation_products.Server",
-        "projectPath": "/home/jwiles/datumation_products/datumation_products.Server/datumation_products.Server.csproj",
-        "packagesPath": "/home/jwiles/.nuget/packages/",
-        "outputPath": "/home/jwiles/datumation_products/datumation_products.Server/obj/",
+        "projectPath": "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Server\\datumation_products.Server.csproj",
+        "packagesPath": "C:\\Users\\eljef\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/jwiles/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\eljef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netcoreapp3.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "netcoreapp3.0": {
             "projectReferences": {
-              "/home/jwiles/datumation_products/datumation_products.Client/datumation_products.Client.csproj": {
-                "projectPath": "/home/jwiles/datumation_products/datumation_products.Client/datumation_products.Client.csproj"
+              "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Client\\datumation_products.Client.csproj": {
+                "projectPath": "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Client\\datumation_products.Client.csproj"
               },
-              "/home/jwiles/datumation_products/datumation_products.Shared/datumation_products.Shared.csproj": {
-                "projectPath": "/home/jwiles/datumation_products/datumation_products.Shared/datumation_products.Shared.csproj"
+              "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Shared\\datumation_products.Shared.csproj": {
+                "projectPath": "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Shared\\datumation_products.Shared.csproj"
               }
             }
           }
@@ -107,17 +115,11 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
+        "netcoreapp3.0": {
           "dependencies": {
             "Dapper": {
               "target": "Package",
               "version": "[1.60.6, )"
-            },
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.1, )",
-              "autoReferenced": true
             },
             "Microsoft.AspNetCore.Blazor.Server": {
               "target": "Package",
@@ -128,9 +130,10 @@
               "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
+              "include": "None",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.1.0, )",
+              "version": "[3.0.0-preview7-27912-14, )",
               "autoReferenced": true
             },
             "Sendgrid": {
@@ -151,36 +154,51 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          }
         }
       }
     },
-    "/home/jwiles/datumation_products/datumation_products.Shared/datumation_products.Shared.csproj": {
+    "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Shared\\datumation_products.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jwiles/datumation_products/datumation_products.Shared/datumation_products.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Shared\\datumation_products.Shared.csproj",
         "projectName": "datumation_products.Shared",
-        "projectPath": "/home/jwiles/datumation_products/datumation_products.Shared/datumation_products.Shared.csproj",
-        "packagesPath": "/home/jwiles/.nuget/packages/",
-        "outputPath": "/home/jwiles/datumation_products/datumation_products.Shared/obj/",
+        "projectPath": "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Shared\\datumation_products.Shared.csproj",
+        "packagesPath": "C:\\Users\\eljef\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eljef\\source\\repos\\blazorproducts\\datumation_products.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/jwiles/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\eljef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netstandard2.1": {
             "projectReferences": {}
           }
         },
@@ -191,53 +209,19 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netstandard2.1": {
           "dependencies": {
-            "Microsoft.AspNetCore.Identity": {
-              "target": "Package",
-              "version": "[2.1.6, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[2.1.6, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[2.1.6, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[2.1.11, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[2.1.1, )"
+              "version": "[2.0.0, )"
             },
-            "Microsoft.Extensions.Configuration.Json": {
+            "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "Microsoft.Extensions.Options": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[2.0.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.2, )"
-            },
-            "System.ComponentModel.Annotations": {
-              "target": "Package",
-              "version": "[4.5.0, )"
             },
             "System.Runtime.Caching": {
               "target": "Package",
@@ -249,10 +233,20 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          }
         }
       }
     }

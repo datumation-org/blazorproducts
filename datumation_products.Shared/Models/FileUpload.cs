@@ -1,11 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
 
-namespace datumation_products.Shared.Models {
+namespace datumation_products.Shared.Models
+{
     public class FileUpload {
         [Required]
         [Display (Name = "Title")]

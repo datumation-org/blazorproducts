@@ -1,0 +1,2 @@
+C:\Users\eljef\source\repos\blazorproducts\datumation_products.Server\obj\Debug\netcoreapp3.0\datumation_products.Server.csprojAssemblyReference.cache
+C:\Users\eljef\source\repos\blazorproducts\datumation_products.Server\obj\Debug\netcoreapp3.0\datumation_products.Server.csproj.CoreCompileInputs.cache

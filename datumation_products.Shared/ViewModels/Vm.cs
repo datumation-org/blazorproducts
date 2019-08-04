@@ -15,7 +15,7 @@ namespace datumation_products.Shared.ViewModels {
         public string Password { get; set; }
 
         [Compare ("Password")]
-        [DataType (DataType.Password)]
+        [DataType(DataType.Password)]
         public string ConfirmPassword { get; set; }
     }
     public class ResultVM {

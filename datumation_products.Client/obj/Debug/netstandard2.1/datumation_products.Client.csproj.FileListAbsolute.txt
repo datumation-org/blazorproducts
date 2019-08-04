@@ -1,0 +1,5 @@
+C:\Users\eljef\source\repos\blazorproducts\datumation_products.Client\obj\Debug\netstandard2.1\datumation_products.Client.csprojAssemblyReference.cache
+C:\Users\eljef\source\repos\blazorproducts\datumation_products.Client\obj\Debug\netstandard2.1\staticwebassets\datumation_products.Client.StaticWebAssets.Manifest.cache
+C:\Users\eljef\source\repos\blazorproducts\datumation_products.Client\obj\Debug\netstandard2.1\staticwebassets\datumation_products.Client.StaticWebAssets.xml
+C:\Users\eljef\source\repos\blazorproducts\datumation_products.Client\obj\Debug\netstandard2.1\datumation_products.Client.csproj.CoreCompileInputs.cache
+C:\Users\eljef\source\repos\blazorproducts\datumation_products.Client\obj\Debug\netstandard2.1\Blazor.inputs.txt
